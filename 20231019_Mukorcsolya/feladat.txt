@@ -1,0 +1,7 @@
+# szimulálja egy műkorcsolya verseny pontozását
+# a versenyen 10-en indulnak
+# Pontozás: 7 biró van, a pontszámok 0-10 0.25-önként növekednek
+# a legjobb és a legrosszabb pontszám kiesik, 
+# a maradék 5 átlaga adja a korcsolyázó pontszámát
+
+# 1. versenyző pontszáma: 8.25 7.5 8.5 7.75 7 6.5 9. Kiesik: 9 és 6.5. Átlag ponszáma: x.y
