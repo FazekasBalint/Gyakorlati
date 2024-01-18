@@ -1,0 +1,20 @@
+SSH
+
+hostname [router_neve]
+ip domain-name [domain_nev]
+crypto key generate rsa
+username [felhasznalonev] password [jelszo]
+line vty 0 15
+transport input ssh
+login local
+
+Mentes
+
+copy running-config startup-config
+
+Alapértelemezett átjáró
+
+ip default-gateway
+
+
+https://www.freecodecamp.org/news/subnet-cheat-sheet-24-subnet-mask-30-26-27-29-and-other-ip-address-cidr-network-references/
